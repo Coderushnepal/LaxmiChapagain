@@ -1,0 +1,39 @@
+.header {
+    background-color: green;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.clearfix {
+    background-color: hotpink;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main-content {
+    background-color: rgb(73, 11, 155);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.footer {
+    background-color: rgb(235, 231, 6);
+    padding: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
