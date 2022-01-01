@@ -1,497 +1,1285 @@
-.main-container {
-    max-width: 1440px;
-}
-
-.header .navbar {
-    display: none;
-}
-
-.header .login {
-    display: none;
-}
-
-.header {
-    width: 100%;
-}
-
-.header-line {
-    display: none;
-}
-
-.logo {
-    width: 35.46%;
-    padding-right: 121px;
-    padding-left: 121px;
-    padding-top: 14px;
-    padding-bottom: 33px;
-    display: inline-block;
-}
-
-.menu .fa {
-    padding-left: 20px;
-}
-
-.logo .logo-lemburs {
-    font-family: 'Playfair';
-    /* font-weight: 700; */
-    font-style: normal;
-    font-size: 32px;
-    padding-left: 30px;
-}
-
-.image-content-button {
-    width: 375px;
-}
-
-.image-content-button .content {
-    margin-left: 21px;
-    margin-right: 20px;
-}
-
-.image-box img {
-    width: 100%;
-}
-
-.content .content-small {
-    font-weight: 700;
-    font-style: normal;
-    font-size: 27px;
-    font-family: 'Playfair Display';
-}
-
-.content-one-span {
-    color: orangered;
-}
-
-.content .content-large {
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    font-family: 'lato';
-}
-
-.image-content-button>.button-box {
-    width: 89.33%;
-}
-
-.btn {
-    border: none;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 20px;
-    padding-left: 20px;
-    cursor: pointer;
-    width: 89.33%;
-    margin-top: 20;
-}
-
-.warning {
-    background-color: orangered;
-}
-
-.warning:hover {
-    background: orangered;
-}
-
-.default {
-    background-color: #e7e7e7;
-    color: black;
-    margin-top: 20px;
-}
-
-.default:hover {
-    background: #ddd;
-}
-
-.workspace {
-    width: 89.33%;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.workspace-image .img1,
-.img2 {
-    width: 89.33%;
-}
-
-.workspace .workspace-content h1 {
-    font-family: 'Playfair Display';
-    font-size: 27px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: left;
-}
-
-.workspace-content .workspace-content-right {
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: left;
-}
-
-.workspace-text {
-    width: 89.33%;
-    background-color: #2C394B;
-    color: white;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    margin-bottom: 24px;
-}
-
-.workspace-text img {
-    padding-left: 90px;
-}
-
-.workspace-text .officespace {
-    padding-left: 30px;
-}
-
-.facilities {
-    width: 89.866%;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.facilities-content .facilities-content_left {
-    font-family: 'Playfair Display';
-    font-size: 27px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: left;
-}
-
-.facilities-content span {
-    color: #FF4C29;
-}
-
-.facilities-content .facilities-content_right {
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    text-align: left;
-    margin-top: 12px;
-}
-
-.facilities-button-image .button-group {
-    text-align: center;
-}
-
-.button-group .white {
-    background-color: white;
-    font-family: 'Lato';
-    font-weight: 700;
-    font-style: normal;
-    font-size: 24px;
-}
-
-.button-group .orange {
-    background-color: orangered;
-    /* padding-bottom: 10px; */
-    padding: 14px, 24px;
-    font-family: 'Lato';
-    font-weight: 700;
-    font-style: normal;
-    font-size: 24px;
-}
-
-.facilities-image img {
-    display: none;
-}
-
-.location {
-    width: 100%;
-    background-color: #F6F6F6;
-    padding-bottom: 49px;
-    padding-top: 40px;
-}
-
-.location .location-content {
-    width: 89.33%;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 40px;
-}
-
-.location-content .location-content-small {
-    font-weight: 700;
-    font-style: normal;
-    font-size: 27px;
-    font-family: 'Lora';
-}
-
-.location-content-small span {
-    color: orangered;
-}
-
-.location-content .location-content-large {
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    text-align: left;
-}
-
-.location .location-image img {
-    width: 100%;
-}
-
-.location-arrow {
-    display: inline-block;
-}
-
-.location-arrow img {
-    padding-left: 30px;
-}
-
-.location-arrow span {
-    padding-left: 20px;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    color: blue;
-    text-align: left;
-}
-
-.testimonials {
-    width: 89.33%;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.testimonials h1 {
-    width: 57.61%;
-    font-style: 'Lora';
-    font-weight: 700;
-    font-style: normal;
-    font-size: 27px;
-}
-
-h1 .customers {
-    color: orangered;
-}
-
-.testimonials-quote-text {
-    background-color: #334756;
-    color: white;
-}
-
-.testimonials-quote p {
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    text-align: left;
-    margin-left: 35px;
-    margin-right: 39px;
-}
-
-.testimonials-quote img {
-    padding-top: 14px;
-    padding-left: 24px;
-}
-
-.text .name {
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: left;
-}
-
-.text .position {
-    font-family: 'Lato';
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 300;
-    text-align: left;
-}
-
-.user img {
-    margin-left: 34.67px;
-    margin-right: 16px;
-}
-
-.text {
-    width: 40%;
-    margin-left: 82.67px;
-    padding-bottom: 35.89px;
-}
-
-.company {
-    width: 89.33%;
-    margin-left: 24px;
-    margin-right: 16px;
-}
-
-.company h1 {
-    font-family: 'Playfair';
-    font-weight: 700;
-    font-style: normal;
-    font-size: 27px;
-}
-
-h1 .top {
-    color: orangered;
-}
-
-.company-text p {
-    font-family: 'Lato';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: left;
-}
-
-.company-image {
-    width: 55.55%;
-    margin-left: 83px;
-    margin-right: 83px;
-    margin-bottom: 28px;
-    margin-top: 40px;
-}
-
-.company-image .zoom {
-    width: 64%;
-    padding-top: 5px;
-}
-
-.company-image .grab {
-    width: 47.89%;
-    padding-top: 20px;
-}
-
-.company-image .googlemeet {
-    width: 98.79%;
-    padding-top: 20px;
-}
-
-.company-image .microsoft {
-    width: 82.09%;
-    padding-top: 20px;
-}
-
-.trends {
-    width: 89.6%;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.trends h1 {
-    width: 81.33%;
-    font-family: 'Playfair';
-    font-weight: 700;
-    font-style: normal;
-    font-size: "27px";
-}
-
-.trends h1 span {
-    color: orangered;
-}
-
-.card1 img {
-    width: 89.33%;
-}
-
-.container h4 {
-    font-family: 'Lato';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    text-align: left;
-    padding-left: 20px;
-}
-
-.container span {
-    font-family: 'Lato';
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 300;
-    padding-left: 20px;
-}
-
-.card2 {
-    display: none;
-}
-
-.card3 {
-    display: none;
-}
-
-.card4 {
-    display: none;
-}
-
-.footer {
-    background-color: #F6F6F6;
-}
-
-.contacts .lemburs-goals {
-    list-style: none;
-}
-
-.company {
-    display: none;
-}
-
-.partnership {
-    display: none;
-}
-
-.support {
-    display: none;
-}
-
-.lemburs-goals {
-    width: 51.46%;
-    margin-left: 20px;
-    margin-top: 40px;
-    margin-right: 162px;
-}
-
-.lemburs-goals li {
-    padding-top: 24px;
-}
-
-.language {
-    width: 33.86%;
-}
-
-.lemburs-goals .lemburss {
-    font-family: 'Playfair Display';
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    text-align: left;
-}
-
-.language .language-text {
-    display: none;
-}
-
-.language .socialmedia {
-    margin-left: 41px;
-}
-
-.line-text .footer-end_text {
-    font-family: 'Lato';
-    font-weight: 300;
-    font-style: normal;
-    font-size: 16px;
-}
-
-.line-text span {
-    font-family: 'Lato';
-    font-weight: 700;
-    font-style: normal;
-    font-size: 16px;
-}
+    .main-container {
+        max-width: 1440px;
+    }
+    
+    .header .navbar {
+        display: none;
+    }
+    
+    .header .login {
+        display: none;
+    }
+    
+    .header {
+        width: 100%;
+    }
+    
+    .header-line {
+        display: none;
+    }
+    
+    .logo {
+        width: 35.46%;
+        padding-right: 121px;
+        padding-left: 121px;
+        padding-top: 14px;
+        padding-bottom: 33px;
+        display: inline-block;
+    }
+    
+    .fa {
+        padding-left: 20px;
+    }
+    
+    .logo .logo-lemburs {
+        font-family: 'Playfair';
+        /* font-weight: 700; */
+        font-style: normal;
+        font-size: 32px;
+        padding-left: 30px;
+    }
+    
+    .image-content-button {
+        width: 375px;
+    }
+    
+    .image-content-button .content {
+        margin-left: 21px;
+        margin-right: 20px;
+    }
+    
+    .image-box img {
+        width: 100%;
+    }
+    
+    .content .content-small {
+        font-weight: 700;
+        font-style: normal;
+        font-size: 27px;
+        font-family: 'Playfair Display';
+    }
+    
+    .content-one-span {
+        color: orangered;
+    }
+    
+    .content .content-large {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        font-family: 'lato';
+    }
+    
+    .image-content-button>.button-box {
+        width: 89.33%;
+    }
+    
+    .btn {
+        border: none;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+        cursor: pointer;
+        width: 89.33%;
+        margin-top: 20;
+    }
+    
+    .warning {
+        background-color: orangered;
+    }
+    
+    .warning:hover {
+        background: orangered;
+    }
+    
+    .default {
+        background-color: #e7e7e7;
+        color: black;
+        margin-top: 20px;
+    }
+    
+    .default:hover {
+        background: #ddd;
+    }
+    
+    .workspace {
+        width: 89.33%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .workspace-image .img1,
+    .img2 {
+        width: 89.33%;
+    }
+    
+    .workspace .workspace-content h1 {
+        font-family: 'Playfair Display';
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: left;
+    }
+    
+    .workspace-content .workspace-content-right {
+        font-family: 'Lato';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+    }
+    
+    .workspace-text {
+        width: 89.33%;
+        background-color: #2C394B;
+        color: white;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 24px;
+    }
+    
+    .workspace-text img {
+        padding-left: 90px;
+    }
+    
+    .workspace-text .officespace {
+        padding-left: 30px;
+    }
+    
+    .facilities {
+        width: 89.866%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .facilities-content .facilities-content_left {
+        font-family: 'Playfair Display';
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: left;
+    }
+    
+    .facilities-content span {
+        color: #FF4C29;
+    }
+    
+    .facilities-content .facilities-content_right {
+        font-family: 'Lato';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        margin-top: 12px;
+    }
+    
+    .facilities-button-image .button-group {
+        text-align: center;
+    }
+    
+    .button-group .white {
+        background-color: white;
+        font-family: 'Lato';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 24px;
+    }
+    
+    .button-group .orange {
+        background-color: orangered;
+        /* padding-bottom: 10px; */
+        padding: 14px, 24px;
+        font-family: 'Lato';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 24px;
+    }
+    
+    .facilities-image img {
+        display: none;
+    }
+    
+    .location {
+        width: 100%;
+        background-color: #F6F6F6;
+        padding-bottom: 49px;
+        padding-top: 40px;
+    }
+    
+    .location .location-content {
+        width: 89.33%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+    
+    .location-content .location-content-small {
+        font-weight: 700;
+        font-style: normal;
+        font-size: 27px;
+        font-family: 'Lora';
+    }
+    
+    .location-content-small span {
+        color: orangered;
+    }
+    
+    .location-content .location-content-large {
+        font-family: 'Lato';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+    }
+    
+    .location .location-image img {
+        width: 100%;
+    }
+    
+    .location-arrow {
+        display: inline-block;
+    }
+    
+    .location-arrow img {
+        padding-left: 30px;
+    }
+    
+    .location-arrow span {
+        padding-left: 20px;
+        font-family: 'Lato';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        color: blue;
+        text-align: left;
+    }
+    
+    .testimonials {
+        width: 89.33%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .testimonials h1 {
+        width: 57.61%;
+        font-style: 'Lora';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 27px;
+    }
+    
+    h1 .customers {
+        color: orangered;
+    }
+    
+    .testimonials-quote-text {
+        /* background-color: #334756; */
+        color: white;
+    }
+    
+    .testimonials-quote-text .testimonial-single-2 {
+        display: none;
+    }
+    
+    .testimonials-quote-text .testimonial-single-3 {
+        display: none;
+    }
+    
+    .testimonials-quote-text .testimonial-single-1 {
+        background-color: #2C394B;
+    }
+    
+    .testimonials-quote p {
+        font-family: 'Lato';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+        margin-left: 35px;
+        margin-right: 39px;
+        color: white;
+    }
+    
+    .testimonials-quote img {
+        padding-top: 14px;
+        padding-left: 24px;
+    }
+    
+    .text .name {
+        font-family: 'Lato';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: left;
+    }
+    
+    .text .position {
+        font-family: 'Lato';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        text-align: left;
+    }
+    
+    .user img {
+        margin-left: 34.67px;
+        margin-right: 16px;
+    }
+    
+    .text {
+        width: 40%;
+        margin-left: 82.67px;
+        padding-bottom: 35.89px;
+    }
+    
+    .company {
+        width: 89.33%;
+        margin-left: 24px;
+        margin-right: 16px;
+    }
+    
+    .company h1 {
+        font-family: 'Playfair';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 27px;
+    }
+    
+    h1 .top {
+        color: orangered;
+    }
+    
+    .company-text p {
+        font-family: 'Lato';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+    }
+    
+    .company-image {
+        width: 55.55%;
+        margin-left: 83px;
+        margin-right: 83px;
+        margin-bottom: 28px;
+        margin-top: 40px;
+    }
+    
+    .company-image .zoom {
+        width: 64%;
+        padding-top: 5px;
+    }
+    
+    .company-image .grab {
+        width: 47.89%;
+        padding-top: 20px;
+    }
+    
+    .company-image .googlemeet {
+        width: 98.79%;
+        padding-top: 20px;
+    }
+    
+    .company-image .microsoft {
+        width: 82.09%;
+        padding-top: 20px;
+    }
+    
+    .trends {
+        width: 89.6%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .trends h1 {
+        width: 81.33%;
+        font-family: 'Playfair';
+        font-weight: 700;
+        font-style: normal;
+        font-size: "27px";
+    }
+    
+    .trends h1 span {
+        color: orangered;
+    }
+    
+    .card1 img {
+        width: 89.33%;
+    }
+    
+    .container h4 {
+        font-family: 'Lato';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    .container span {
+        font-family: 'Lato';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 300;
+        padding-left: 20px;
+    }
+    
+    .card2 {
+        display: none;
+    }
+    
+    .card3 {
+        display: none;
+    }
+    
+    .card4 {
+        display: none;
+    }
+    
+    .footer {
+        background-color: #F6F6F6;
+    }
+    
+    .contacts .lemburs-goals {
+        list-style: none;
+    }
+    
+    .company {
+        display: none;
+    }
+    
+    .partnership {
+        display: none;
+    }
+    
+    .support {
+        display: none;
+    }
+    
+    .lemburs-goals {
+        width: 51.46%;
+        margin-left: 20px;
+        margin-top: 40px;
+        margin-right: 162px;
+    }
+    
+    .lemburs-goals li {
+        padding-top: 24px;
+    }
+    
+    .language {
+        width: 33.86%;
+    }
+    
+    .lemburs-goals .lemburss {
+        font-family: 'Playfair Display';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+    }
+    
+    .language .language-text {
+        display: none;
+    }
+    
+    .language .socialmedia {
+        text-align: center;
+        padding-left: 38px;
+    }
+    
+    .line-text .footer-end_text {
+        font-family: 'Lato';
+        font-weight: 300;
+        font-style: normal;
+        font-size: 16px;
+    }
+    
+    .line-text span {
+        font-family: 'Lato';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+    }
+    
+    .line-text {
+        border-top: 5px solid gray;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+    
+    @media screen and (min-width:768px) {
+        * {
+            margin-top: 0px;
+        }
+        .main-container {
+            max-width: 834px;
+        }
+        .header {
+            width: 100%;
+        }
+        .logo .logo-lemburs {
+            padding-left: 150px;
+        }
+        .image-content-button {
+            width: 92.56%;
+            margin-left: 32px;
+            margin-right: 30px;
+        }
+        .image-box {
+            width: 47.92%;
+        }
+        .image-box {
+            float: left;
+        }
+        .image-content-button .content {
+            width: 44.53%;
+            float: right;
+            margin-left: 5px;
+        }
+        .clearfix {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .content .content-small {
+            font-family: 'Playfair Display';
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 36px;
+            text-align: left;
+        }
+        .content .content-large {
+            font-family: 'Lato';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .button-box .btn {
+            /* width: 193px; */
+            padding-left: 43px;
+            padding-right: 43px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            display: inline-block;
+            width: auto;
+        }
+        .workspace {
+            width: 92.56%;
+        }
+        .workspace-image {
+            width: 31.6%;
+            float: left;
+        }
+        .workspace-text .officespace {
+            font-family: 'Lato';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-left: 20px;
+            padding-top: 21px;
+            padding-bottom: 21px;
+        }
+        .workspace-text img {
+            padding-left: 15px;
+        }
+        .facilities {
+            margin-bottom: 14px;
+        }
+        .facilities-content {
+            padding-bottom: 30px;
+        }
+        .facilities-content .facilities-content_left {
+            font-family: 'Lora';
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .facilities-content .facilities-content_right {
+            font-family: 'Lato';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .facilities-button-image .button-group {
+            float: left;
+        }
+        .facilities-image img {
+            display: block;
+            width: 100%;
+        }
+        .facilities-image {
+            width: 51.92%;
+            float: right;
+        }
+        .location {
+            width: 92.32%;
+            margin-bottom: 40px;
+        }
+        .location-content .location-content-small {
+            font-family: 'Lora';
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .location-content .location-content-large {
+            font-family: 'Lato';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .location-image {
+            float: left;
+            width: 51.16%
+        }
+        .location-image img {
+            width: 100%;
+            padding-top: 30px;
+        }
+        .location .location-content {
+            float: right;
+            width: 43.02%;
+        }
+        .location-arrow img {
+            width: 70px;
+        }
+        .location .location-arrow {
+            float: right;
+        }
+        .testimonials {
+            margin-bottom: 50px;
+        }
+        .testimonials h1 {
+            font-family: 'Lora';
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .testimonial-single {
+            display: inline-block;
+            width: 44%;
+            margin-left: 3px;
+            background-color: #2C394B;
+        }
+        .testimonial-single-2 {
+            margin-left: 32px;
+        }
+        .testimonials-quote {
+            width: 100%;
+        }
+        .testimonials-quote-text .testimonial-single-3 {
+            display: inline-block;
+        }
+        .testimonials .swipe {
+            display: none;
+        }
+        .company {
+            width: 89.80%;
+            display: block;
+        }
+        .company h1 {
+            font-family: 'Playfair Display';
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: left;
+            text-align: center;
+        }
+        .company-text .company-text_long {
+            font-family: 'Lato';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+        .company-image {
+            margin-left: 10px;
+            width: 89.80%;
+        }
+        .company-image .zoom {
+            width: 16.95%;
+            margin-right: 50px;
+        }
+        .company-image .grab {
+            width: 12.68%;
+            margin-right: 50px;
+        }
+        .company-image .googlemeet {
+            width: 26.14%;
+            margin-right: 20px;
+        }
+        .company-image .microsoft {
+            width: 21.73%;
+        }
+        .trends {
+            width: 92.56%;
+        }
+        .trends h1 {
+            font-family: 'Playfair Display';
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 53px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .card1 {
+            width: 31.60%;
+        }
+        .card2 {
+            width: 31.60%;
+        }
+        .intermediate .container img {
+            width: 80px;
+        }
+        .intermediate .container span {
+            padding-right: 4px;
+        }
+        .trends-image_card .card3 {
+            display: none;
+        }
+        .trends-image_card .card4 {
+            display: none;
+        }
+        .container h4 {
+            font-family: 'Lato';
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .container span {
+            font-family: 'Lato';
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 14px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .trends-image_card .work {
+            display: none;
+        }
+        .trends-image_card .intermediate .high {
+            font-family: 'Lato';
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .trends-image_card .intermediate .startup {
+            font-family: 'Lato';
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .intermediate .container p {
+            font-family: 'Lato';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .card {
+            display: inline-block;
+            width: 32%;
+        }
+        .footer {
+            width: 100%;
+        }
+        .footer .company {
+            display: none;
+        }
+        .language .language-text {
+            display: block;
+        }
+        /* .language {
+            float: right;
+        } */
+        .line-text {
+            border-top: 3px solid grey;
+            margin-left: 60px;
+            margin-right: 60px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .footer-end_text {
+            text-align: center;
+        }
+        .contacts,
+        .language {
+            display: inline-block;
+            width: 48%;
+            vertical-align: middle;
+        }
+        .language .language-text p {
+            text-align: right;
+        }
+        .language .socialmedia {
+            margin-left: 0px;
+        }
+        .socialmedia {
+            display: block;
+            text-align: right;
+            width: 100%;
+        }
+        .socialmedia img {
+            display: inline-block;
+            padding-right: 26px;
+        }
+    }
+    
+    @media screen and (min-width:1336px) {
+        * {
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        .main-container,
+        .footer {
+            max-width: 1336px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .wrapper,
+        .company,
+        .trends,
+        .footer-wrapper {
+            width: auto;
+            margin-right: 107px;
+            margin-left: 133px;
+        }
+        .header {
+            background-color: white;
+            display: block;
+        }
+        .header .navbar {
+            display: inline-block;
+        }
+        .header .login {
+            display: inline-block;
+        }
+        .header .fa {
+            display: inline-block;
+        }
+        .header .fa-bars {
+            display: none;
+        }
+        .header .logo {
+            font-weight: 700;
+            font-size: 32px;
+            display: inline-block;
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            padding-left: 12px;
+            padding-right: 12px;
+            width: auto;
+        }
+        .header>.navbar>ul>li {
+            display: inline-block;
+            margin-left: 80px;
+            margin-top: 53px;
+        }
+        .navbar {
+            display: inline-block;
+        }
+        .login {
+            display: inline-block;
+            margin-left: 120px;
+        }
+        hr {
+            color: black;
+            width: 1440px;
+        }
+        .btn {
+            border: none;
+            color: white;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-right: 25px;
+            padding-left: 25px;
+            cursor: pointer;
+            margin-top: 63px;
+        }
+        .warning {
+            background-color: orangered;
+        }
+        .warning:hover {
+            background: orangered;
+        }
+        .default {
+            background-color: #e7e7e7;
+            color: black;
+            margin-left: 20px;
+        }
+        .default:hover {
+            background: #ddd;
+        }
+        .image-content-button,
+        .company,
+        .workspace,
+        .facilities,
+        .location,
+        .testimonials {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .image-content-button>.image-box {
+            display: inline-block;
+            width: 52.25%;
+        }
+        .image-content-button>.content {
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 30px;
+            width: 41.02%;
+        }
+        .image-content-button>.content>.content-small {
+            font-weight: 700;
+            font-style: normal;
+            font-size: 40px;
+            font-family: Playfair Display;
+        }
+        .image-content-button>.content>.content-large {
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            font-family: lato;
+        }
+        .content-one-span {
+            color: orangered;
+        }
+        .content {
+            width: 350px;
+        }
+        .image-content-button>.button-box {
+            margin-top: 70px;
+            display: inline-block;
+            padding-left: 700px;
+            vertical-align: top;
+        }
+        .image-content-button {
+            display: inline-block;
+        }
+        .workspace {
+            margin-top: 80px;
+        }
+        .workspace>.workspace-content>.workspace-content-right {
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 350px;
+            width: 350px;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            font-family: lato;
+        }
+        .workspace {
+            display: inline-block;
+        }
+        .workspace>.workspace-content>h1 {
+            display: inline-block;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .workspace>.workspace-image>img {
+            width: 310px;
+            height: 200px;
+            padding-left: 40px;
+        }
+        .workspace>.workspace-image {
+            margin-top: 69px;
+            display: inline-block;
+        }
+        .workspace>.workspace-image>.workspace-text {
+            background-color: #2C394B;
+            color: white;
+            width: 310px;
+            height: 64px;
+            margin-left: 40px;
+            padding-top: 21px;
+            font-family: 'Lato';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+        }
+        .workspace>.workspace-image>.workspace-text>.officespace {
+            padding-left: 16px;
+            padding-right: 120px;
+        }
+        .workspace>.workspace-image>.workspace-text_moredetails {
+            background-color: #FF4C29;
+            color: white;
+            width: 310px;
+            height: 64px;
+            margin-left: 40px;
+            padding-top: 21px;
+            font-family: 'Lato';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+        }
+        .workspace>.workspace-image>.workspace-text_moredetails>.more-details {
+            padding-right: 72px;
+        }
+        .facilities {
+            margin-top: 80px;
+        }
+        .facilities>.facilities-content>.facilities-content_left {
+            display: inline-block;
+            font-size: 32px;
+            font-weight: 700;
+            width: 350px;
+            font-family: Lora;
+        }
+        .facilities>.facilities-content>.facilities-content_right {
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 120px;
+            padding-top: 24px;
+            width: 350px;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            font-family: lato;
+        }
+        .facilities .facilities-content .needs {
+            color: orangered;
+        }
+        .facilities>.facilities-button-image>.button-group>.white {
+            background-color: white;
+            font-family: Lato;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 28px;
+        }
+        .facilities>.facilities-button-image>.button-group>.orange {
+            background-color: orangered;
+            padding-bottom: 10px;
+            font-family: Lato;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 28px;
+        }
+        .facilities>.facilities-button-image>.button-group {
+            color: black;
+            margin-top: 30px;
+            margin-right: 200px;
+            float: left;
+        }
+        .facilities-button-image>.facilities-image>img {
+            /* width: 587px;
+            height: 351px; */
+            height: auto;
+        }
+        .facilities>.facilities-button-image>.facilities-image {
+            display: inline-block;
+            margin-left: 50px;
+        }
+        .location {
+            margin-top: 78px;
+            background-color: #F6F6F6;
+        }
+        .location>.location-image>img {
+            /* padding-left: 51px;
+            padding-top: 80px;
+            padding-bottom: 93px; */
+            width: 100%;
+        }
+        .location>.location-image {
+            display: inline-block;
+            width: 52%;
+        }
+        .location>.location-content {
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 40px;
+            margin-left: 129px;
+        }
+        .location>.location-content>.location-content-small {
+            font-weight: 700;
+            font-style: normal;
+            font-size: 40px;
+            font-family: Playfair Display;
+            width: 385px;
+        }
+        .location>.location-content>.location-content-small>.where {
+            color: orangered;
+        }
+        .location>.location-content>.location-content-large {
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            font-family: lato;
+            width: 385px;
+        }
+        .location>.location-content>.location-arrow {
+            display: inline-block;
+        }
+        .location>.location-content {
+            display: inline-block;
+        }
+        .location>.location-content>.location-arrow>img {
+            display: inline-block;
+        }
+        .testimonials {
+            margin-top: 80px;
+        }
+        .testimonials-quote-text .testimonial-single-1 {
+            display: inline-block;
+        }
+        .testimonials-quote-text .testimonial-single-2 {
+            display: inline-block;
+        }
+        .testimonials-quote-text .testimonial-single-3 {
+            display: inline-block;
+        }
+        .testimonials-quote-text .testimonial-single {
+            width: 30%;
+        }
+        .testimonial-single-3 {
+            margin-left: 32px;
+        }
+        .company h1 {
+            font-family: 'Playfair Display';
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            text-align: center;
+            /* margin-left: 30px;
+            width: 71.73%; */
+        }
+        .company h1 .top {
+            color: orangered;
+        }
+        .company>.company-text {
+            font-family: 'Lato';
+            font-size: 16px;
+            font-weight: 400;
+            width: 45.79%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .company>.company-text {
+            text-align: center;
+        }
+        .company>.company-image {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        .company-image .zoom {
+            width: 15.40%;
+        }
+        .company-image .grab {
+            width: 9.29%;
+        }
+        .company-image .googlemeet {
+            width: 19.17%;
+        }
+        .company-image .microsoft {
+            width: 15.93%;
+        }
+        .trends-image_card .card3 {
+            display: inline-block;
+            margin-right: 32px;
+            width: 32%;
+        }
+        .trends-image_card .card4 {
+            display: inline-block;
+        }
+        .trends-image_card .card1 {
+            display: inline-block;
+        }
+        .contacts .lemburs-goals .lemburss {
+            font-family: 'Playfair Display';
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 53px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .footer-wrapper {
+            padding-top: 90px;
+            vertical-align: top;
+        }
+        .footer .footer-company {
+            display: inline-block;
+        }
+        .footer-company .company-goals {
+            list-style: none;
+        }
+        .footer-wrapper>.contacts,
+        .partnership,
+        .support,
+        .language,
+        .footer-company {
+            display: inline-block;
+            vertical-align: top;
+            width: 19%;
+        }
+        .footer-wrapper>.partnership>.partnership-goals {
+            list-style: none;
+        }
+        .footer-wrapper>.support>.support-goals {
+            list-style: none;
+        }
+        .contacts .lemburs-goals {
+            width: 91.46%;
+            margin-top: -30px;
+            padding-left: 0px;
+        }
+        .footer-wrapper .line-text {
+            margin-right: 220px;
+            margin-left: 220px;
+            border-top: 3px solid gray;
+        }
+    }
