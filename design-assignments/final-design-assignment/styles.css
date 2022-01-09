@@ -4,7 +4,16 @@
             }
             
             .main-container .header-wrapper {
-                background-image: linear-gradient(to bottom, #7834BE, #EF2779);
+                /* background-image: linear-gradient(to bottom, #7834BE, #EF2779); */
+                background-image: url('./images/Rectangle\ 8.png');
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                /* position: relative; */
+                z-index: 1;
+                padding-bottom: 80px;
+                background-size: 100% 910px;
+                overflow: hidden;
             }
             
             .header-wrapper {
@@ -48,6 +57,7 @@
             
             .header-second-right>img {
                 width: 90.65%;
+                padding-bottom: 50px;
             }
             
             h1 {
@@ -553,6 +563,18 @@
             }
             
             @media only screen and (min-width: 768px) {
+                .main-container .header-wrapper {
+                    /* background-image: linear-gradient(to bottom, #7834BE, #EF2779); */
+                    background-image: url('./images/Rectangle\ 8.png');
+                    width: 100%;
+                    height: 100%;
+                    background-repeat: no-repeat;
+                    /* position: relative; */
+                    z-index: 1;
+                    padding-bottom: 80px;
+                    background-size: 100% 1172px;
+                    overflow: hidden;
+                }
                 .header-second-right .try-for-free {
                     margin-left: 290px;
                 }
@@ -631,6 +653,18 @@
             }
             
             @media only screen and (min-width: 1336px) {
+                .main-container .header-wrapper {
+                    /* background-image: linear-gradient(to bottom, #7834BE, #EF2779); */
+                    background-image: url('./images/Rectangle\ 8.png');
+                    width: 100%;
+                    height: 100%;
+                    background-repeat: no-repeat;
+                    /* position: relative; */
+                    z-index: 1;
+                    padding-bottom: 80px;
+                    background-size: 100% 1020px;
+                    overflow: hidden;
+                }
                 .header-wrapper .header-first {
                     width: 100%;
                 }
