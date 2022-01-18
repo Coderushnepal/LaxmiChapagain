@@ -308,7 +308,6 @@
         letter-spacing: 0.20000000298023224px;
         text-align: left;
         padding-left: 50px;
-        /* color: white; */
     }
     
     .mobile-newsletter-button .email {
@@ -391,7 +390,6 @@
     .testimonials {
         text-align: center;
         padding-bottom: 100px;
-        /* width: 53.91%; */
         width: 84.91%;
         margin-left: auto;
         margin-right: auto;
