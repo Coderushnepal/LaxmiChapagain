@@ -1,5 +1,12 @@
 body {
-    background-color: rgb(71, 70, 71);
+    background-color: rgb(224, 198, 224);
+}
+
+.wrapper {
+    background-color: grey;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 input {
@@ -9,10 +16,10 @@ input {
 #eyeToggle {
     position: absolute;
     left: 642px;
-    top: 67px;
+    top: 80px;
 }
 
-.userNameInput {
+#userNameInput {
     margin-left: 500px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -20,12 +27,17 @@ input {
     margin-top: 50px;
 }
 
+#userNameInput {
+    border: black;
+    border-radius: 5px;
+}
+
 .divForForgotAndNext {
     margin-left: 500px;
     margin-top: 50px;
 }
 
-.forgotPassword {
+.divForForgotAndNext .forgotPassword {
     text-decoration: none;
     background-color: lightsteelblue;
     padding-top: 5px;
