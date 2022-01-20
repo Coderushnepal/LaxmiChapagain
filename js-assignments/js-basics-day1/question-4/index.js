@@ -5,7 +5,6 @@
 
 // Note * A string with a single character is trivially counted as a string with repeating identical characters. * If there are no strings with repeating identical characters, return an empty array (see example #3).
 
-
 function identicalFilter(argument) {
     var identicalString = [];
     for (i = 0; i < argument.length; i++) {
@@ -14,7 +13,6 @@ function identicalFilter(argument) {
             identicalString.push(argument[i])
         }
     }
-
     return identicalString;
 }
 console.log(identicalFilter(["88", "999", "22", "545", "133"]));

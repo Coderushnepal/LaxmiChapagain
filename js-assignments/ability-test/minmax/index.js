@@ -1,10 +1,13 @@
+// Find the Smallest and Biggest Numbers Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
+// minMax([1, 2, 3, 4, 5]) ➞ [1, 5]
+
+// minMax([2334454, 5]) ➞ [5, 2334454]
+
+// minMax([1]) ➞ [1, 1]
+
 var myarr = [];
 
-function addTo() {
-    myarr.push(document.getElementById("userinput").value);
-}
-
-function minmax(myarr) {
+function minMax(myarr) {
     var min = myarr[0];
     var max = myarr[0];
     for (i = 0; i < myarr.length; i++) {
@@ -15,5 +18,9 @@ function minmax(myarr) {
         max = myarr[i]
 
     }
-    console.log(min, max);
+    return [min, max];
 }
+
+console.log(minMax([1, 2, 3, 4, 5]));
+console.log(minMax([2334454, 5])); //issue
+console.log(minMax([1]));

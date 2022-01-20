@@ -1,4 +1,3 @@
-// QUESTION-5
 // Return the Objects Keys and Values
 // Create a function that takes an object and returns the keys and values as separate arrays.
 // keysAndValues({ a: "Apple", b: "Microsoft", c: "Google" }) ➞ [["a", "b", "c"], ["Apple", "Microsoft", "Google"]]
@@ -6,11 +5,14 @@
 // keysAndValues({ key1: true, key2: false, key3: undefined }) ➞ [["key1", "key2", "key3"], [true, false, undefined]]
 
 function keysAndValues(argument) {
+    var outputArray = [];
     var keys = Object.keys(argument);
     var values = Object.values(argument);
-    console.log(keys);
-    console.log(values);
+    outputArray.push(keys);
+    outputArray.push(values);
+    return outputArray;
 }
-keysAndValues({ a: "Apple", b: "Microsoft", c: "Google" });
-keysAndValues({ a: 1, b: 2, c: 3 });
-keysAndValues({ key1: true, key2: false, key3: undefined });
+
+console.log(keysAndValues({ a: "Apple", b: "Microsoft", c: "Google" }));
+console.log(keysAndValues({ a: 1, b: 2, c: 3 }));
+console.log(keysAndValues({ key1: true, key2: false, key3: undefined }));

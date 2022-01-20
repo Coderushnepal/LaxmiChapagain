@@ -29,6 +29,7 @@ frame.className = "frame"
 frame.style.height = "600px";
 frame.style.width = "800px";
 frame.style.position = "relative";
+frame.style.border = " 2px solid";
 
 // Appending frame and wrapper
 wrapper.appendChild(frame);
@@ -42,8 +43,8 @@ button.addEventListener("click", function(event) {
     circle.style.borderRadius = "50%";
     circle.style.backgroundColor = "red";
     circle.style.position = "absolute";
-    circle.style.left = "800" * Math.random() + "px";
-    circle.style.top = "600" * Math.random() + "px";
+    circle.style.left = "780" * Math.random() + "px";
+    circle.style.top = "580" * Math.random() + "px";
     frame.appendChild(circle);
     // alert("Done!");
 });
