@@ -1,2 +1,2 @@
-# LaxmiChapagain
-This README.md includes my assignment of "Code Like Her".
+Assignments of <b>"Code Like Her Fellowship"<b>
+
