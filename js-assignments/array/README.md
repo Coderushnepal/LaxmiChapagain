@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 524018d89e38357d988b65a37bfc2bd52b7b0c9e
 # Array
 ## Question 1
 ### Return Types
