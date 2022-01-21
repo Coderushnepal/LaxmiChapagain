@@ -53,17 +53,15 @@ console.log(objectArray);
 
 function find(firstCharacter) {
     var counts = 0;
-    var counta = 0;
+
     for (i = 0; i < objectArray.length; i++) {
         var initialCharacter = objectArray[i].firstName[0].toLowerCase();
-        if (initialCharacter == "s") {
+        if (initialCharacter == firstCharacter) {
             counts++
         }
-        if (initialCharacter == "a") {
-            counta++
-        }
+
     }
-    return counts++ + " and " + (objectArray.length - counts++);
+    return counts + " and " + (objectArray.length - counts);
     // return counta++ + " and " + (objectArray.length - counta++);
 }
 console.log(find('s'));
@@ -85,9 +83,10 @@ console.log(find('a'));
 //     ...
 //   }
 var input = objectArray;
-// console.log(input);
-var output = input.reduce(function(accumulator, value, index) {
-    return input * accumulator;
+var obj = {};
+var output = input.forEach(function(value) {
+    var objId = value.id;
+    obj[objId] = value;
 
-}, {});
-// console.log(output);
+});
+console.log(obj);

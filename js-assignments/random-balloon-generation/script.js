@@ -26,8 +26,10 @@ wrapper.appendChild(button);
 // create frame and adding styles to frame
 var frame = document.createElement("div");
 frame.className = "frame"
-frame.style.height = "600px";
-frame.style.width = "800px";
+var height = frame.clientHeight;
+var width = frame.clientWidth;
+// frame.style.height = "600px";
+// frame.style.width = "800px";
 frame.style.position = "relative";
 frame.style.border = " 2px solid";
 
@@ -43,8 +45,10 @@ button.addEventListener("click", function(event) {
     circle.style.borderRadius = "50%";
     circle.style.backgroundColor = "red";
     circle.style.position = "absolute";
-    circle.style.left = "780" * Math.random() + "px";
-    circle.style.top = "580" * Math.random() + "px";
+    circle.style.left = (width - 20) * Math.random() + "px";
+    circle.style.top = (height - 20) * Math.random() + "px";
+    // circle.style.left = "780" * Math.random() + "px";
+    // circle.style.top = "580" * Math.random() + "px";
     frame.appendChild(circle);
     // alert("Done!");
 });

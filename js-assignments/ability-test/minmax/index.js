@@ -9,18 +9,19 @@ var myarr = [];
 
 function minMax(myarr) {
     var min = myarr[0];
+    console.log(min);
     var max = myarr[0];
-    for (i = 0; i < myarr.length; i++) {
+
+    for (i = 1; i < myarr.length; i++) {
         if (myarr[i] < min) {
-            min = myarr[i]
-
-        } else(myarr[i] > max)
-        max = myarr[i]
-
+            min = myarr[i];
+        } else if (myarr[i] > max) {
+            max = myarr[i]
+        }
     }
     return [min, max];
 }
 
 console.log(minMax([1, 2, 3, 4, 5]));
-console.log(minMax([2334454, 5])); //issue
+console.log(minMax([2334454, 5]));
 console.log(minMax([1]));
