@@ -39,7 +39,6 @@ var formControl = [{
         errorMessage: " Username must be atleast 3 character",
         id: "forUsername",
         id1: "usernameInput",
-
     },
 
     {

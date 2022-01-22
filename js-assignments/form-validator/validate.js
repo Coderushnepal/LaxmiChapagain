@@ -8,11 +8,12 @@ function validateForm() {
     }
 
     var validateUseremail = document.forms["yourForm"]["yourEmail"].value; //email validation
-    if (validateUseremail !== /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/ || validateUseremail == "") {
+    if (validateUseremail.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
+
+        emailInput.style.border = "2px solid green";
+    } else {
         forEmail.style.display = "block";
         emailInput.style.border = "2px solid red";
-    } else {
-        emailInput.style.border = "2px solid green";
     }
 
     var validatePassword = document.forms["yourForm"]["yourPassword"].value; // password validation
@@ -24,11 +25,11 @@ function validateForm() {
     }
 
     var validateConfirmPassword = document.forms["yourForm"]["yourConfirmPassword"].value; //confirm password validation
-    if (validateConfirmPassword != validatePassword) {
+    if (validateConfirmPassword === validatePassword) {
+        passwordConfirmInput.style.border = "2px solid green";
+    } else {
         forConfirmPassword.style.display = "block";
         passwordConfirmInput.style.border = "2px solid red";
-    } else {
-        passwordConfirmInput.style.border = "2px solid green";
     }
 }
 
