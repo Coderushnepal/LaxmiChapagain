@@ -13,7 +13,6 @@ container.style.paddingTop = "20px";
 container.style.paddingBottom = "20px";
 container.style.backgroundColor = "#fff";
 container.style.borderRadius = "5px";
-container.style.boxShadow = "0 2 px 10 px rgba(0, 0, 0, 0.3)";
 container.style.width = "300px";
 document.body.appendChild(container); // appending container in body
 
@@ -106,7 +105,8 @@ formControl.forEach(function(element) {
     formControlinput.style.fontSize = "14px";
 
     // eventlistener to input onclick
-    formControlinput.addEventListener("click", function() {
+    formControlinput.addEventListener("click", function(event) {
+        event.target.style.outline = "none";
         formControlinput.style.border = "2px solid black";
     })
     formControlDiv.appendChild(formControlinput);
