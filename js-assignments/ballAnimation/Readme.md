@@ -1,1 +1,1 @@
-Demo for Ball Animation : coderushnepal.github.io/LaxmiChapagain/ballAnimation
+Demo for Ball Animation:   https://coderushnepal.github.io/LaxmiChapagain/js-assignments/ballAnimation/

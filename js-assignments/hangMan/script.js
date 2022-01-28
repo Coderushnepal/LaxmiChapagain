@@ -116,7 +116,9 @@ function displayingParts() {
                 // alert('Game Over')
                 var gameoverDiv = document.getElementById("gameOver");
                 gameoverDiv.style.display = "block";
-
+                var p = document.getElementById("sorry");
+                p.innerHTML = "Sorry! You Lost 🤔" + "The right word is " + randomWord;
+                gameoverDiv.appendChild(h2);
             }
             break;
         }
@@ -144,25 +146,5 @@ playAgainWin.addEventListener("click", function(event) {
 })
 
 function resetGame() {
-    var figurePart = document.getElementsByClassName("figurepart");
-    for (i = 0; i < figurePart.length; i++) {
-        figurePart[i].style.display = "none";
-    }
-    var nameList = ['computer', 'engine', 'helicopter', 'poetry', 'family', 'winter'];
-    var randomWord = nameList[Math.floor(Math.random() * nameList.length)];
-    console.log(randomWord);
-    var splittedRandomWord = randomWord.split("");
-    for (i = 0; i < splittedRandomWord.length; i++) {
-        var createSpan = document.createElement("span");
-        createSpan.classList.add("letters");
-        var spanLetter = document.getElementById("letterBlanks");
-        spanLetter.value = "";
-        spanLetter.appendChild(createSpan);
-    }
-    var wrongLetter = document.getElementById('wrongLettersDiv');
-    wrongLetter.innerHTML = "";
-    var winningDiv = document.getElementById("winning");
-    winningDiv.style.display = "none";
-    var gameoverDiv = document.getElementById("gameOver");
-    gameoverDiv.style.display = "none";
+    window.location.reload();
 }
