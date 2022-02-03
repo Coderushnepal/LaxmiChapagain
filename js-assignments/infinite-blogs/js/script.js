@@ -1,5 +1,8 @@
 var i = 0;
 var initialNumber = 5;
+
+// const loader = document.querySelector('.loader')
+
 var postsContainer = document.createElement("div");
 postsContainer.id = "posts-container";
 document.body.appendChild(postsContainer);
@@ -71,11 +74,7 @@ function scrollWindow(event) {
 function showLoading() {
     initialNumber = initialNumber + 5;
     loader.classList.add = 'show';
-}
-
-function showLoading() {
-    initialNumber += 5;
-    loading.classList.add = 'show';
+    loader.style.display = "block";
     setTimeout(() => {
         loading.classList.remove = 'show'
             // setTimeout(() => {

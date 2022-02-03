@@ -8,21 +8,16 @@
 }
 
 .loader {
-    text-align: center;
-    width: 60px;
+    /* opacity: 0; */
     display: flex;
-    position: relative;
-    bottom: 50px;
-    transition: opacity 0.3s ease-in;
-    display: flex;
-    justify-content: center;
+    position: fixed;
     bottom: 50px;
     transition: opacity 0.3s ease-in;
 }
 
 .loader.show {
     /* opacity: 1 !important; */
-    display: flex;
+    display: block;
 }
 
 .circle {

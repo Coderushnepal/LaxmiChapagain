@@ -7,7 +7,8 @@ align-items: center;
 justify-content: center;
 min-height: 100vh;
 margin: 0;
-padding-bottom: 100px;`;
+padding-bottom: 100px;
+`;
 
 var heading = document.createElement("h1");
 heading.innerHTML = "My Blog";
@@ -37,6 +38,7 @@ font-size: 16px;`;
 
 var loading = document.createElement("div");
 loading.classList.add("loader");
+loading.id = "loader";
 document.body.appendChild(loading);
 
 var circle1 = document.createElement("div");
