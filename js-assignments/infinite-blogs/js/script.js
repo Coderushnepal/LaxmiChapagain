@@ -1,8 +1,6 @@
 var i = 0;
 var initialNumber = 5;
 
-// const loader = document.querySelector('.loader')
-
 var postsContainer = document.createElement("div");
 postsContainer.id = "posts-container";
 document.body.appendChild(postsContainer);
@@ -73,10 +71,10 @@ function scrollWindow(event) {
 
 function showLoading() {
     initialNumber = initialNumber + 5;
-    loader.classList.add = 'show';
-    loader.style.display = "block";
+
+    loading.classList.add('show');
     setTimeout(() => {
-        loading.classList.remove = 'show'
+        loading.classList.remove('show')
             // setTimeout(() => {
             //     blogContent.slice(0, initialNumber).forEach((element) => {
             //         console.log(blogContent.title)
@@ -89,7 +87,7 @@ function showLoading() {
         blogContent.slice(0, initialNumber).forEach((element) => {
             showBlogs(element);
         });
-    }, 500)
+    }, 1000)
 }
 window.addEventListener('scroll', function(event) {
     scrollWindow(event);

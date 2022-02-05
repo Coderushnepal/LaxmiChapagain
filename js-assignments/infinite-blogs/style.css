@@ -8,16 +8,15 @@
 }
 
 .loader {
-    /* opacity: 0; */
-    display: flex;
+    display: none;
     position: fixed;
     bottom: 50px;
     transition: opacity 0.3s ease-in;
 }
 
 .loader.show {
-    /* opacity: 1 !important; */
-    display: block;
+    display: flex;
+    flex-direction: row;
 }
 
 .circle {
