@@ -13,7 +13,7 @@
   [Code](https://github.com/Coderushnepal/LaxmiChapagain/tree/master/js-assignments/array)
 
   1. String Manipulation
-   [Code](https://github.com/Coderushnepal/LaxmiChapagain/tree/master/js-assignments/string-manipulation))
+   [Code](https://github.com/Coderushnepal/LaxmiChapagain/tree/master/js-assignments/string-manipulation)
 
  1. Password Toggler
   [Code](https://github.com/Coderushnepal/LaxmiChapagain/tree/master/js-assignments/DOM-assignment) | [Demo](https://coderushnepal.github.io/LaxmiChapagain/js-assignments/DOM-assignment/)
@@ -33,7 +33,7 @@
 1. Expense Tracker
   [Code](https://github.com/Coderushnepal/LaxmiChapagain/tree/master/js-assignments/expense-tracker) | [Demo](https://coderushnepal.github.io/LaxmiChapagain/js-assignments/expense-tracker/)
 
-   1. HangMan
+  1. HangMan
   [Code](https://github.com/Coderushnepal/LaxmiChapagain/tree/master/js-assignments/hangMan) | [Demo](https://coderushnepal.github.io/LaxmiChapagain/js-assignments/hangMan/)
 
   1. Infinite Scrolling Blog
