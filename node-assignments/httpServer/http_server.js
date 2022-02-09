@@ -1,6 +1,8 @@
-const http = require('http');
+// const http = require('http');
+import http from "http";
 
-server = http.createServer((request, response) => {
+// const server = http.createServer(function(request, response) { fat arrow equivalent
+const server = http.createServer((request, response) => {
     // Send the response body
     response.end('This is my first http server in NodeJS\n');
 })
