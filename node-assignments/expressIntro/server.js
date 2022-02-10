@@ -38,6 +38,7 @@ const loggingMiddleware = (req, res, next) => {
     next();
 };
 
+// bodyparser passes format in json object form
 server.use(bodyParser.json()); // With the use of "use" bodyParser middleware can be used all over the code
 server.use(loggingMiddleware); // With the use of "use" loggingMiddleware can be used all over the code
 
