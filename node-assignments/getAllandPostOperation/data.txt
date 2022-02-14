@@ -1,0 +1,6 @@
+{"manufacturer":"Hyundai","model":"i10"}
+{"manufacturer":"Hyundai","model":"i10"}
+{"manufacturer":"Hyundai","model":"i10"}
+{"manufacturer":"Hyundai","model":"i11"}
+{"manufacturer":"Hyundai","model":"i11"}
+{"manufacturer":"Hyundai","model":"i10"}

@@ -8,7 +8,7 @@ import bodyParser from 'body-parser';
 import serveFavicon from 'serve-favicon';
 const server = express();
 
-server.use(serveFavicon('./public/favicon.ico')); // path for favicon
+server.use(serveFavicon('./public/favicon.ico')); //  servefavicon takes one argument i.e entire path for favicon
 
 const logger = winston.createLogger({ // winston makes logger instamce and we can use this logger to console throughout the program except in production
     level: 'info',
@@ -21,7 +21,7 @@ logger.add(
 );
 
 server.use(helmet());
-server.use(morgan('common')); // common jastai aaru pani hunxa, eg:combined
+server.use(morgan('common')); //  Morgan is HTTP request logger middleware for node.js  common jastai aaru pani hunxa, eg:combined, these are for showing request in different format
 server.use(bodyParser.json());
 
 server.get('/', (req, res, next) => {
@@ -58,12 +58,12 @@ server.get('/cars', (req, res, next) => {
 server.post('/cars', (req, res, next) => {
     logger.debug('Payload received', req.body);
 
-    const body = JSON.stringify(req.body) + os.EOL; // os.EOL is for printing the array splitted in next line
+    const body = JSON.stringify(req.body) + os.EOL; // os.EOL is for printing the array splitted in next line // request.body mah hamile halna khojeko data aauxa
 
     logger.info('Checking file existence');
-    const hasFile = fs.existsSync('./data.txt');
+    const hasFile = fs.existsSync('./data.txt'); // existsSync returns boolean and checks for file
 
-    if (!hasFile) {
+    if (!hasFile) { // If file xaina vane shows 404 error and response terminates. If we have not checked for this file each time mah new file banthio
         logger.error(`Cannot find file: data.txt`);
 
         res.status(404).json({
